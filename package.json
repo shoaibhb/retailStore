@@ -1,0 +1,33 @@
+{
+  "name": "retailstore",
+  "version": "1.0.0",
+  "description": "MEANIO Coursework",
+  "main": "index.js",
+  "devDependencies": {
+    "gulp": "3.8.11",
+    "gulp-mocha": "2.0.1",
+    "mocha": "2.2.4",
+    "superagent": "1.2.0",
+    "wagner-core": "0.1.0",
+    "node-inspector": ""
+  },
+  "dependencies": {
+    "underscore": "1.5.2",
+    "mongodb": "2.2.10",
+    "express": "",
+    "express-session": "1.11.2",
+    "http-status": "0.1.8",
+    "mongoose": "4.0.3",
+    "body-parser": "1.12.4",
+    "passport": "0.2.2",
+    "passport-facebook": "2.0.0",
+    "stripe": "3.3.4"
+  },
+  "scripts": {
+    "test": "mocha test.js",
+    "test-kitten": "mocha -R nyan test.js",
+    "watch": "gulp watch"
+  },
+  "author": "shoaibhb",
+  "license": "MIT"
+}
