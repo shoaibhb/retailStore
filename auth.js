@@ -1,12 +1,11 @@
-// appID = 801111623364782
-//appSecret = 937cdcbb2f8b3506dc2ac0be7bcbb800
+
               
 
 function setupAuth(User, app) {
     var passport = require('passport');
     var FacebookStrategy = require('passport-facebook').Strategy;
-    var FACEBOOK_CLIENT_ID = "801111623364782";
-    var FACEBOOK_CLIENT_SECRET = "937cdcbb2f8b3506dc2ac0be7bcbb800";
+    var FACEBOOK_CLIENT_ID = "XXX";
+    var FACEBOOK_CLIENT_SECRET = "XXX";
 
     //High level serialize/de-serialize configuration for passport
     passport.serializeUser(function(user, done) {
